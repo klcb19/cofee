@@ -4,6 +4,10 @@
 }
 body{
     background-color: rgb(175, 172, 172);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 header{
@@ -34,6 +38,7 @@ header::before{
 .menu2{
     display: flex;
     gap: 20px;
+    
 }
 .cafe1{
     width: 90%;
@@ -50,7 +55,11 @@ header::before{
 }
 a{
     color: rgb(253, 250, 247);
+    padding: 1rem;
     text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2rem;
 
 }
 .inio{
@@ -67,4 +76,457 @@ a{
 .texto{
     color: rgb(250, 249, 246);
     position: relative;
+}
+a:hover{
+    color: rgb(229, 191, 142);
+}
+.cuadro-blanco{
+    width: 80%;
+    height: 250vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -5rem;
+    
+
+
+}
+.sobre{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sobre h4{
+    color: rgb(229, 191, 142);
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: bold;
+
+
+
+}
+.sobre h1{
+    color: rgb(60, 33, 14);
+    font-size: 2rem;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.loren{
+    width: 80%;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.icono{
+    width: 100%;
+    /* height: 60vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.icono img{
+    width: 10%;
+}
+.opciones{
+    width: 100%;
+    height: 20vh;
+    color: rgb(90, 69, 55);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18%;
+    font-size: 1rem;
+    font-family: Arial;
+    
+}
+.opciones img{
+    width: 50%;
+}
+.vivela{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vivela h4{
+    color: rgb(229, 191, 142);
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.vivela h1{
+    color: rgb(60, 33, 14);
+    font-size: 2rem;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.galeria{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.galeria img{
+    width: 60%;
+    height: 150vh;
+   
+}
+.menu-arriba{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 46, 4);
+    background-image: url(../img-cafeteria/menu_arriba.svg);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position: top;
+    flex-direction: column;
+    
+    
+}
+.encabezado{
+    width: 100%;
+    height: 10vh;
+    color: #faf5f5;
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.partes{
+    width: 100%;
+    height: 60vh;
+}
+.parte1{
+    width: 590px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.parte1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.menx{
+    display: flex;
+    justify-content: space-around;
+}
+.menx li p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+    
+    
+.menx p span{
+    color: rgb(229, 191, 142);
+    font-size: 1.5rem;
+    display: block;
+}
+.menx li .precio{
+    font-size: 3rem;
+    
+}
+.lista1{
+    display: flex;
+    gap: 1rem;
+}
+.parrafo-cafe{
+    width: 90%;
+    height: 10vh;
+}
+.parte2 h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.menu-abajo{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img-cafeteria/menu_abajo.svg);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position: bottom;
+    flex-direction: column;
+
+}
+.fondo-cuadro2{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(233, 205, 180);
+    display: flex;
+    justify-content: center;
+
+}
+.cuadro-blanco2{
+    width: 80%;
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clientes{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clientes h4{
+    color: rgb(229, 191, 142);
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.clientes h1{
+    color: rgb(60, 33, 14);
+    font-size: 2rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.cuadro-p{    
+    width: 40%;
+    height: 30vh;
+    background-color: rgb(238, 227, 208);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+   
+    
+}
+.cuadro-p p{
+    color: rgb(60, 33, 14);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    width: 80%;
+
+}
+.juan{
+    color: rgb(60, 33, 14);
+    font-size: 1rem;
+    font-family:serif;
+    text-align: right;
+}
+.abajo{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+.ubicacion{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.ubicacion h2{
+    color: rgb(170, 120, 54);
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.reservacion{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.reservacion h2{
+    color: rgb(170, 120, 54);
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.horario{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.horario h2{
+    color: rgb(170, 120, 54);
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+.pie{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 46, 4);
+}
+.pie h4{
+    color: rgb(253, 250, 247);
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+@media screen and (max-width:750px){
+    .cafe1{
+        flex-direction: column;
+    }
+    .cafe1 img{
+        width: 50%;
+    }
+    .menu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        padding: 0;
+    }
+    .texto{
+        text-align: center;
+    }
+    .cuadro-blanco{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sobre{
+        width: 100%;
+        height: 60vh;
+        
+    }
+    .icono{
+        width: 30%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem
+    }
+    .loren{
+        width: 80%;
+        height:30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    galeria{
+        height: 20vh;
+    }
+    .menu-arriba{
+        height: 190vh;
+    }
+    .menx{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuadro-p{
+        width: 50%;
+        height: 12vh;
+    }
+   
+    .cuadro-p p{
+        color: rgb(60, 33, 14);
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: justify;
+        width: 80%;
+    
+    }
+    .juan{
+        color: rgb(60, 33, 14);
+        font-size: 0.6rem;
+        font-family:serif;
+        text-align: right;
+    }
+    .cuadro-blanco2{
+        width: 80%;
+        height: 120vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        top: -2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .abajo{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .pie{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-final{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        
+    }
+   
+        
 }
